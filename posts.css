@@ -1,0 +1,23 @@
+section.posts {
+    margin-top: 5vh;
+    height: 95vh;
+}
+
+section.posts div.card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 70vh;
+    width: 20vw;
+    margin-left: 5px;
+}
+
+section.posts div.card div.img {
+    height: 50%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: blue;
+    background-image: url(images/3fb.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

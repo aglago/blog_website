@@ -1,0 +1,38 @@
+section.left {
+    display: flex;
+    flex: 3;
+    height: 89vh;
+    border-radius: 25px;
+    background-color: #C9AF9B;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+section.right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 90vh;
+    border-radius: 25px;
+    gap: 3px;
+
+    .up {
+        flex: 1;
+        background-color: #647F8C;
+        border-radius: 25px;
+        margin-right: 5px;
+    }
+
+    .down {
+        flex: 1;
+        background-color: #1C1710;
+        border-radius: 25px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+section.sections {
+    display: flex;
+}
