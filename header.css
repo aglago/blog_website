@@ -25,7 +25,7 @@ nav .right {
 
 span.add,
 span.search {
-    color: #647F8C;
+    color: var(--bluelike);
 }
 
 span.search {

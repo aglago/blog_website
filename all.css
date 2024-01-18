@@ -14,9 +14,12 @@
     --pacifico: 'Pacifico', cursive;
     --roboto: 'Roboto', sans-serif;
     --rubik: 'Rubik Burned', system-ui;
+    --bluelike: #647F8C;
+    --orangelike: #C9AF9B;
+    --blacklike: #1C1710;
 }
 
 body {
-    background-color: #C9AF9B;
+    background-color: var(--orangelike);
 }
 
