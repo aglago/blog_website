@@ -11,7 +11,7 @@ div.get_started {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 75vh;
+    padding: 30px;
     width: 90%;
     max-width: 600px;
     background-color: #647F8C;
@@ -61,7 +61,6 @@ button.btn {
     border: 1px solid var(--orangelike);
     color: var(--bluelike);
     text-align: center;
-    line-height: -7vh;
     transition: all 0.3s;
     cursor: pointer;
 }

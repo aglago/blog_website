@@ -1,12 +1,3 @@
-// const currentTime = new Date();
-// const day = currentTime.getDay();
-// const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-// const dayName = daysOfWeek[day];
-
-// const hours = currentTime.getHours();
-// const minutes = currentTime.getMinutes();
-// const seconds = currentTime.getSeconds();
-
 const dayT = document.getElementById('up');
 const timeT = document.getElementById('down');
 
