@@ -1,0 +1,73 @@
+@import url(all.css);
+
+div.get_started {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    width: 90%;
+    max-width: 600px;
+    background-color: #647F8C;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-size: 20px;
+        font-weight: 600;
+        border-bottom: 1px solid var(--orangelike);
+        padding-bottom: 20px;
+        padding-left: 20px;
+        color: var(--orangelike);
+        width: 100%;
+    }
+
+    div.quiz {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        h2 {
+            padding-top: 20px;
+            color: var(--orangelike);
+        }
+
+        div.answer_buttons {
+            width: 60%;
+        }
+    }
+}
+
+
+button.btn {
+    width: 100%;
+    background-color: white;
+    background-color: var(--orangelike);
+    /* height: 5vh; */
+    padding: 10px 10px;
+    margin: 10px 0;
+    border: 1px solid var(--orangelike);
+    color: var(--bluelike);
+    text-align: center;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+button.btn:hover {
+    background-color: var(--bluelike);
+    color: var(--orangelike);
+}
+
+button.nxt {
+    height: 5vh;
+    width: 60%;
+    background-color: var(--blacklike);
+    color: var(--bluelike);
+    border: 1px solid var(--orangelike);
+}

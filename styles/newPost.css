@@ -1,0 +1,109 @@
+@import url(../styles/all.css);
+
+div.frame div.row {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    .date,
+    .location {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background-color: var(--orangelike);
+        padding: 5px;
+        color: var(--blacklike);
+        cursor: pointer;
+
+        span {
+            font-size: 15px;
+            color: var(--bluelike);
+        }
+    }
+
+    .location {
+        display: flex;
+    }
+
+    .img {
+        background-image: url(https://cdn.vectorstock.com/i/preview-1x/15/40/blank-profile-picture-image-holder-with-a-crown-vector-42411540.jpg);
+        background-repeat: no-repeat;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        background-size: 100% 100%;
+        
+    }
+}
+
+div.frame {
+    padding: 30px;
+    background-color: var(--bluelike);
+    width: 70vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    h3 {
+        width: 100%;
+        padding: 10px;
+        border-bottom: 1px solid var(--orangelike);
+        text-align: center;
+        font-size: 25px;
+        color: var(--orangelike);
+    }
+
+    textarea {
+        background-color: var(--blacklike);
+        color: var(--orangelike);
+    }
+
+    div.options {
+        height: 7vh;
+        width: 100%;
+        border-top: 1px solid var(--orangelike);
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+
+        .left {
+            display: flex;
+            gap: 1.5rem;
+
+            .add_photo,
+            .edit_location {
+                height: 7vh;
+                width: 15vw;
+                background-color: var(--orangelike);
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 20px;
+                cursor: pointer;
+
+                span {
+                    color: var(--bluelike);
+                }
+            }
+        }
+
+        .add,
+        .add input {
+            width: 12vw;
+            height: 7vh;
+            background-color: var(--orangelike);
+            border: none;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Pacifico&family=Roboto:wght@300&family=Rubik+Burned&display=swap');
+
+@import url(../styles/header.css);
+@import url(../styles/sections.css);
+@import url(../styles/posts.css);
+@import url(../styles/newPost.css);
+@import url(../styles/menu_btn.css);
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --opensans: 'Open Sans', sans-serif;
+    --pacifico: 'Pacifico', cursive;
+    --roboto: 'Roboto', sans-serif;
+    --rubik: 'Rubik Burned', system-ui;
+    --bluelike: #647F8C;
+    --orangelike: #C9AF9B;
+    --blacklike: #1C1710;
+}
+
+body {
+    background-color: var(--orangelike);
+}
+
+html,
+body {
+    height: 100%;
+}
+
