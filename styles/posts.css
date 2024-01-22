@@ -1,0 +1,37 @@
+@import url(pathFinder.css);
+
+body {
+
+}
+
+section.posts_wrapper {
+    padding: 0 2rem;
+}
+
+section.featured {
+    position: relative;
+    background-image: url(../images/crochet_flower_72ppi.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 1.5rem;
+    
+    h1 {
+        color: white;
+        z-index: 2;
+    }
+}
+
+section.sec_blog {
+    padding-left: 1.5rem;
+
+    div.overlay{
+        display: flex;
+        flex: 3;
+        position: absolute;
+        height: 90%;
+        width: 71.5%;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 25px;
+    }
+}
