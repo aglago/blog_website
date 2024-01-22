@@ -36,6 +36,13 @@ div.right div.search {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 15vw;
+}
+
+@media screen and (max-width: 480) {
+    div.right div.search {
+        width: 15vw;
+    }
 }
 
 div.hhr {
@@ -77,10 +84,4 @@ div.search {
     height: 6vh;
     border-radius: 15px;
     border: 2px solid #647F8C;
-}
-
-@media screen and (max-width: 480) {
-    div.right div.search span.search {
-        min-width: 10vw;
-    }
 }

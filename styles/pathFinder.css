@@ -9,8 +9,8 @@ section.posts {
 
     @media screen and (max-width: 480px) {
         flex-direction: column;
-        overflow-x: auto;
         gap: 2rem;
+        overflow-x: unset;
     }
 
     div.card {
@@ -20,7 +20,7 @@ section.posts {
         position: relative;
         min-height: 50vh;
         min-width: 20vw;
-        width: 80%;
+        width: 100%;
         margin-left: 5px;
         background-color: #647F8C;
         border-radius: 20px;
@@ -52,6 +52,11 @@ section.posts {
         div.card {
             min-width: 65vw;
             width: 100%;
+
+            div.img {
+                height: 25vh;
+                width: 100%;
+            }
         }
     }
 }
@@ -156,6 +161,12 @@ div.see_blogs {
 
     button {
         min-width: 150px;
+    }
+
+    @media screen and (max-width: 480px) {
+        button {
+            max-height: 5vh;
+        }
     }
 }
   

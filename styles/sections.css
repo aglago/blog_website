@@ -1,5 +1,4 @@
-section.left,
-section.left_last {
+section.left {
     display: flex;
     flex: 3;
     align-items: center;
@@ -43,13 +42,14 @@ section.right {
     height: 90vh;
     border-radius: 25px;
     gap: 3px;
+    padding-right: 2.5rem;
 
     .up {
         flex: 1;
         background-color: #647F8C;
         border-radius: 25px;
         margin-right: 5px;
-        font-size: 32px;
+        font-size: 200%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -65,8 +65,7 @@ section.right {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 38px;
-        color: white;
+        font-size: 250%;
         color: #C9AF9B;
     }
 }
@@ -99,6 +98,10 @@ section.left_last * {
             h1 {
                 font-size: 40px;
             }
+        }
+
+        section.right {
+            padding-right: unset;
         }
     }
 }
