@@ -9,7 +9,7 @@ section.featured {
     background-image: url(../images/crochet_flower_72ppi.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.6);
+    /* background-color: rgba(0, 0, 0, 0.6); */
     background-blend-mode: multiply;
     text-align: center;
     padding: 1.5rem;
@@ -22,14 +22,4 @@ section.featured {
 
 section.sec_blog {
     padding-left: 1.5rem;
-
-    div.overlay{
-        display: flex;
-        flex: 3;
-        position: absolute;
-        height: 90%;
-        width: 71.5%;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 25px;
-    }
 }

@@ -21,6 +21,13 @@ nav .right {
     display: flex;
     gap: 1.5rem;
     align-items: center;
+
+    div.search input {
+        background-color: var(--orangelike);
+        border: none;
+        outline: none;
+        color: var(--bluelike);
+    }
 }
 
 span.add,
@@ -34,9 +41,11 @@ span.search {
 
 div.right div.search {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    width: 15vw;
+    width: 25vw;
+    padding: 0 20px;
+    gap: 5px;
 }
 
 @media screen and (max-width: 480) {
