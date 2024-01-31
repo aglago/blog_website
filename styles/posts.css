@@ -8,7 +8,9 @@ section.featured {
     position: relative;
     background-image: url(../images/crochet_flower_72ppi.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
     text-align: center;
     padding: 1.5rem;
     
